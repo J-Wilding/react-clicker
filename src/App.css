@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+button {
+  background-color: #282c34;
+  border: hidden;
+  margin-top: .5rem;
+  outline: none;
+}
+
+button:active { 
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24); 
+  transform: translateY(4px); 
+  /* Moving button 4px to y-axis */ 
+} 
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  /* border-style: hidden; */
+  background-color: #282c34;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+
+::placeholder {
+  color: rgb(202, 1, 1);
+  font-size: 3rem;
+}
+
+.no-outline:focus {
+  outline: none;
+}
